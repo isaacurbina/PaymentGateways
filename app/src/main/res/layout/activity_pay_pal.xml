@@ -7,24 +7,14 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.mac.isaac.paymentgateways.MainActivity"
-    android:orientation="vertical">
-
-        <Button
-            android:id="@+id/go_paypal"
-            android:text="@string/go_paypal"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:background="#1565C0"
-            android:textColor="#fff"
-            android:textSize="16sp" />
+    tools:context=".PaypalActivity">
 
     <Button
-        android:id="@+id/go_androidpay"
-        android:text="@string/go_androidpay"
+        android:id="@+id/btn_paypal"
+        android:text="@string/btn_paypal"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="#ABABAB"
+        android:background="#1565C0"
         android:textColor="#fff"
         android:textSize="16sp" />
 

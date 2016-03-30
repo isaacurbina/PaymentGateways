@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mac.isaac.paymentgateways">
 
-    <!-- PAYPAL / -->
     <!-- for card.io card scanning -->
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.VIBRATE" />
@@ -17,8 +16,7 @@
     <!-- for most things, including card.io & paypal -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
-
-    <!-- / PAYPAL -->
+    <uses-permission android:name="com.android.vending.BILLING" />
 
     <application
         android:allowBackup="true"
@@ -34,6 +32,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <service
             android:name="com.paypal.android.sdk.payments.PayPalService"
             android:exported="false" />
@@ -46,7 +45,8 @@
             android:name="io.card.payment.CardIOActivity"
             android:configChanges="keyboardHidden|orientation" />
         <activity android:name="io.card.payment.DataEntryActivity" />
-
+        <activity android:name=".PaypalActivity" />
+        <activity android:name=".AndroidPayActivity"></activity>
     </application>
 
 </manifest>

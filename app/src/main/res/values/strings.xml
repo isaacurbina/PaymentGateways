@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PaymentGateways</string>
+    <string name="PAYPAL_CLIENT_ID">AXq2daXkrSUMNsrucY9w_bgXjhfFImHvxKwYjs8emyy3DJmJb344QoALu3RPqA5rjCox-Flf4M16tFGL</string>
+    <string name="PAYPAL_CLIENT_SECRET">EJA-IzZ4giJGmHiLqegx8fvRI4IS5r0OisZpB_vuHXOzPP7q0H6CuJM1H7030gcyQHjGkMkP_0092f0k</string>
+    <string name="btn_paypal">Pay with PayPal</string>
+</resources>

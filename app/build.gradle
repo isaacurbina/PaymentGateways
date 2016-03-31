@@ -28,10 +28,9 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.2.1'
-    // PayPal
-    compile 'com.paypal.sdk:paypal-android-sdk:2.14.0'
-    // Butterknife
-    compile 'com.jakewharton:butterknife:7.0.1'
-    // Google Play Billing
+    compile 'com.paypal.sdk:paypal-android-sdk:2.14.0' // PayPal
+    compile 'com.jakewharton:butterknife:7.0.1' // Butterknife
+    compile 'com.android.support:support-v4:23.2.1' // Android Pay
+    compile 'com.google.android.gms:play-services:7.3.0'
 
 }
